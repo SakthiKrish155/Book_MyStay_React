@@ -2,7 +2,7 @@
 //import './App.css';
 import Main from "./Components/Main";
 import './Assets/CSS/Main.css'
-import Home from "./Components/Home";
+// import Home from "./Components/Home";
 import './Assets/CSS/Home.css'
 import SignUp from "./Components/SignUp";
 import './Assets/CSS/SignUp.css'
