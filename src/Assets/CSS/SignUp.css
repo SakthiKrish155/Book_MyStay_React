@@ -1,0 +1,139 @@
+/* Basic styles for the signup page */
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(9, 9, 9, 0.593); /* Beige background */
+    border: 2px solid #8B4513; /* Brown border */
+    border-radius: 10px; /* Rounded corners */
+    width: 400px; /* Adjust width as needed */
+    margin: 20px auto; /* Center the form */
+    margin-top: 60px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.signup-form label,
+.signup-form input,
+.signup-form button {
+    margin-bottom: 3px;
+    font-family: monospace;
+    font-weight: 600;
+    color: #f6f6f6;
+}
+
+.signup-form input {
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid #8B4513; /* Brown border for inputs */
+    font-size: 16px;
+    height: 25px;
+   
+}
+
+.signup-form button {
+    padding: 10px 20px 10px 10px;
+    background-color: #6d3535; /* Brown button background */
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 9cm;
+    font-family: monospace;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+.signup-form button:hover {
+    background-color: #A0522D; /* Darker brown on hover */
+}
+
+.alternative-signup {
+    margin-top: 0px;
+    text-align: center;
+}
+
+.google-btn,
+.facebook-btn {
+    margin: 5px;
+    padding: 8px 18px;
+    border: none;
+    height: 40px;
+    width: 250px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.facebook-btn,
+.google-btn {
+    background-color: #f6f6f6; /* Brown button background */
+    color: rgb(99, 41, 41);
+}
+
+.google-btn:hover,
+.facebook-btn:hover {
+    background-color: #75391d4f; /* Darker brown on hover */
+    color: #f6f6f6;
+}
+.image-container {
+    background-image: url('https://www.coorgcliffsresort.com/images/gallery/Coorg-Cliffs_030.jpg');
+    background-size: cover;
+    background-color: #623e00;
+    background-position: center;
+    position:absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity:60%;
+}
+
+.room-image {
+    width: 100%; /* Adjust the width as needed */
+    max-height: 300px; /* Adjust the max-height as needed */
+    border-radius: 10px; /* Rounded corners */
+}
+.h1{
+    font-family: monospace;
+    font-size:28px;
+    padding: 0px ;
+    color: #f5f4f3;
+}
+p{
+    font-family: monospace;
+    font-size: 18px;
+    padding-bottom: 0;
+    color: #f6f6f6;
+}
+/* Existing CSS styles... */
+
+.signup-form input[type="password"] {
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid #8B4513; /* Brown border for inputs */
+    font-size: 16px;
+    padding-left:90px ;
+    width: 40cm; /* Adjust width as needed */
+    height: 16px; /* Adjust height as needed */
+    color: black;
+}
+.signup-form input[type="tel"] {
+    border-radius: 4px;
+    border: 1px solid #8B4513; /* Brown border for inputs */
+    font-size: 16px;
+    padding-top:0px;
+    color: black;
+    height: 1cm; /* Adjust height as needed */
+}
+
+label.pass {
+    width: 25%; /* Adjust label width as needed */
+}

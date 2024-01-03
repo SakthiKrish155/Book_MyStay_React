@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+}
+
+.navbarpage {
+    background-color: #4d3100;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 0px 0px 0px;
+    position:fixed;
+    z-index : 2;
+}
+
+.dashboard
+{
+    /* width: 12vw;
+    height: 100vw; */
+    display: flex;
+    flex-direction: row;
+}
+.logopage {
+    height: 1.66cm;
+    width: 1.67cm;
+    padding: 0px 0px 0px 0px;
+}
+
+.sqdivpage {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 35px;
+    font-weight: 500;
+
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav-listpage{
+    display: flex;
+    margin: 0px 0px 0px 0px;
+}
+#profile
+{
+    margin: 15px 30px 0px 800px;
+}
+.signinpage {
+    list-style: none;
+    padding: 0 0 0 0;
+    margin: 15px 30px 0px 0px;
+    display: block;
+    justify-content: flex-end;
+    font-family: monospace;
+    text-decoration: none;
+    font-weight: 500;
+}
+.content
+{
+    width:88vw;
+    /* height:90vh; */
+    margin: 5% ;
+    display: flex;
+    flex-direction: column;
+}
+.main
+{
+    height: 100hv;
+    width: 100vw;
+    display: flex;
+    flex-direction: column q;
+}
+h1{
+    color: #4d3100;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+}
+ .himachal{
+    border: solid;
+    border-width: 4px;
+    margin-top: 20%;
+    margin-left: 18%;
+    margin-right: 8%;
+    background-color: #4d31004e;
+}
+
+.himachalp{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    align-items: center;
+    margin-left: 2%;
+    display: flex;
+    font-size: 15px;
+    justify-content: center; 
+    width: fit-content; 
+    font-weight: 600;
+}
+.himachalll
+{
+    border: solid;
+    border-width: 4px;
+    margin-top: 0%;
+    margin-left: 25%;
+    margin-right: 8%;
+    background-color: #4d31004e;
+    color: black;
+
+}

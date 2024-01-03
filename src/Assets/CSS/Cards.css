@@ -1,0 +1,113 @@
+:root {
+    --spring-wood: #FEFEFD;
+    --rangoon-green: #171714;
+    --jet-stream: #ABCDCA;
+    --pewter: #9FAAA0;
+    --hippie-blue: #62A3B5;
+    --faded-jade: #3D7674;
+    --fuscous-gray: #585B4E;
+    --leather: #907B55;
+}
+
+.booking-card-wrapper {
+    height: 130px;
+    width: 82%;
+    background-color: #3d76745c;
+    display: flex;
+    margin-left: 15%;
+    margin-top:12%
+}
+.booking-card-image {
+    flex: 1;
+    height: fit-content;
+    width: fit-content;
+    width: 100%;
+    object-fit: cover;
+}
+
+.price {
+    font-weight: 700;
+}
+.booking-card-content {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+.booking-card-description {
+    margin-top: 10px;
+    margin-left: 20px;
+     margin-bottom: 10px;
+}
+.booking-card-description h1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px 0px;
+    color: hsle(0, 0%, 13%) 
+}
+.booking-card-description p{
+    font-size: 15px;
+    margin: 5px 0px;
+    color: hsle(0, 0%, 13%) 
+}
+.booking-card-details {
+    flex: 1;
+    padding-left: 20px;
+    padding-top: 20px;
+    background-color: #e4e4e3;
+}
+i.fa-star {
+    color: var(--faded-jade);
+    font-size: 16px;
+}
+.reviews {
+    font-size: 10px;
+    color: hsl(0, 0%, 45%);
+    margin-top: 5px;
+}
+.reviews .amount {
+    padding-left: 3px;
+}
+.side-note {
+    margin-top: 10px;
+    font-size: 8px;
+    color: hsl(0, 0%, 45%);
+}
+
+.btn-primary button {
+    outline: none;
+    width: 5cm;
+    height: 1cm;
+    display: inline-block;
+    font-weight: 400;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: .575rem .95rem;
+    border-radius: .25rem;
+    box-shadow: 0 2px 2px 0 hsla(0, 0%, 0%, 0.2);
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.btn-primary {
+    background-color: var(--hippie-blue);
+    color: var(--spring-wood);
+    font-weight: 700;
+}
+
+.right-align {
+    margin: auto auto;
+}
+
+.flex {
+    display: flex;
+}
+.hotelscard
+{
+    color: #171714;
+    border: solid;
+    width: fit-content;
+    margin-left: 25%;
+    margin-top: 10%;
+}

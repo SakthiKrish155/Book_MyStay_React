@@ -1,0 +1,93 @@
+/* SignIn.css */
+
+/* Body styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5dc; /* Beige background */
+  }
+  .sin{
+    color: antiquewhite;
+  }
+  /* Sign-in container */
+  .signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  #username,#password
+  {
+    width:8cm;
+    justify-content: space-between;
+    display: flex;
+    padding-bottom: 16px;
+    margin-bottom: 30px;
+  }
+  /* Sign-in form styles */
+  .signin-form {
+    background-color: #191004bf; /* Brown form background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(89, 57, 57);
+    text-align: center;
+    height: 10cm;
+  }
+  
+  .signin-form h1 {
+    margin-bottom: 20px;
+  }
+  
+  .signin-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .signin-form button {
+    width: 80%;
+    height: 1.2cm;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #8b4513; /* Brown button background */
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 5%;
+    font-family: 'Courier New', Courier, monospace;
+    
+  }
+  
+  .signin-form button:hover {
+    background-color: #a0522d; /* Darker brown on hover */
+  }
+  
+  .error-message {
+    color: rgb(255, 252, 252);
+    margin-top: 10px;
+  }
+
+  h1{
+    margin-bottom: 30px;
+    font-family: monospace;
+    font-size: 36px;
+    color: aliceblue;
+  }
+.img
+{
+    background-image: url('https://www.coorgcliffsresort.com/images/gallery/Coorg-Cliffs_030.jpg');
+    background-size: cover;
+    background-color: #623e00;
+    background-position: center;
+    position:absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity:60%;
+}
