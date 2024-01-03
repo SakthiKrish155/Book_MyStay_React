@@ -73,7 +73,7 @@ body {
 }
 
 .image {
-    background-image: url("C:\Users\srisa\OneDrive\Documents\GitHub\React_IRC\Project\bookmystay\src\Assets\Images\Room.jpg");
+    background-image: url("../Images/Room.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
