@@ -121,9 +121,17 @@ body {
     height: 50px;
     width: 8cm;
     border-radius: 5px;
-    border-color: #846124;
     border-width: 5px;
     font-size: 20px;
+}
+.inputdate {
+    height: 53px;
+    width: 8cm;
+    border-radius: 10px;
+    /* border-width: 5px; */
+    font-size: 18px;
+   margin-top: 5px;
+    margin-left: 5px;
 }
 
 input::placeholder {

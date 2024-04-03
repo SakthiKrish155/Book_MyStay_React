@@ -66,14 +66,14 @@ const Main = () => {
             </div>
             <div>
                 <form class="form" onSubmit={handleSubmit}>
-                    <input type="text"
-                        className="input"
+                    <input type='text'
+                        className='input'
                         placeholder="🏠Heading to..."
                         onChange={handleInputChange}
                         value={destination}
                         required></input>
-                    <input type="date" class='input' placeholder="🗓️CheckIn Date??" required></input>
-                    <input type="date" class='input' placeholder="🗓️CheckOut Date??" required></input>
+                    <input type="date" class='inputdate' placeholder="🗓️CheckIn Date??" required></input>
+                    <input type="date" class='inputdate' placeholder="🗓️CheckOut Date??" required></input>
                     <button class = "buttonmain" type='submit'>Book Now</button>
                 </form>
             </div>

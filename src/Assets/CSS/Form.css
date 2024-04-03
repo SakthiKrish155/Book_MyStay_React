@@ -495,3 +495,11 @@ input[type=submit]:active {
     margin: 200px 30px;
   }
 }
+
+#adults,#children,#rateType,#Rooms,#title{
+  height: 5vh;
+}
+.select-styled.active
+{
+  height: 5vh;
+}
